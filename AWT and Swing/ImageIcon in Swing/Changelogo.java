@@ -10,7 +10,7 @@ public class Changelogo
         frame.setSize(400,300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("change the logo");
-        ImageIcon image = new ImageIcon("AWT and Swing\\ImageIcon in Swing\\goku.png.png");
+        ImageIcon image = new ImageIcon("goku.png");
         frame.setIconImage(image.getImage());
         frame.setVisible(true);
       

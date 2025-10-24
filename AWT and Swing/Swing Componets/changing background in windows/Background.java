@@ -4,7 +4,8 @@ import javax.swing.JFrame;
 
 public class Background 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         JFrame frame = new JFrame();
         frame.setTitle("changing Background of the window");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

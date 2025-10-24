@@ -9,8 +9,8 @@ public class Background
         frame.setTitle("changing Background of the window");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(250,350);
-       // frame.getContentPane().setBackground(Color.BLACK);         // set the default colors provided
-       frame.getContentPane().setBackground(new Color(0,0,0));
+       // frame.getContentPane().setBackground(Color.BLACK);         // set the default colors provided and it is method to set the color
+       frame.getContentPane().setBackground(new Color(0,0,0)); // set the color like another method. And we can customize it
     }
     
 }

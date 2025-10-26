@@ -24,6 +24,8 @@ public class MethodsinLabel
         label.setFont(new Font("MV Boli ",Font.ITALIC , 30));
         label.setIconTextGap(-25);
         label.setHorizontalTextPosition(JLabel.CENTER);
+        label.setHorizontalAlignment(JLabel.CENTER);
+        label.setVerticalAlignment(JLabel.TOP);
         label.setVerticalTextPosition(JLabel.TOP);
         JFrame frame = new JFrame();
         frame.setSize(650,500);
